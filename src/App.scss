@@ -1,0 +1,19 @@
+.App {
+  margin: 20px;
+
+  header {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .error {
+    color: #ff0000;
+  }
+}
