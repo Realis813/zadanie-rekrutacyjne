@@ -1,6 +1,15 @@
-.color-rectangle {
-    
-background-color: var(--bg-color);
-height: 60px;
-width: 60px;
- }
+.color {
+  border-style: solid;
+  margin: 5px;
+
+  .color-rectangle {
+    background-color: var(--bg-color);
+    height: 80px;
+    width: 80px;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+}
